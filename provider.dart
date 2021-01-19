@@ -212,27 +212,8 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   // Build sign up txt
-  Widget _buildSignUpTxt() {
-    return GestureDetector(
-      onTap: () => print('Sign Up Text pressed'),
-      child: RichText(
-        text: TextSpan(children: [
-          TextSpan(
-              text: 'Don\'t have an Account?',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w400)),
-          TextSpan(
-              text: ' Sign Up',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold))
-        ]),
-      ),
-    );
-  }
+  
+  
 
   @override
   Widget build(BuildContext context) {
